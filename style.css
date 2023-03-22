@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    overflow-x: hidden;
+
 
 }
 #body{
@@ -37,12 +37,13 @@ footer{
     position:relative;
     height: auto;
     min-height: 100svh;
-    width: 100svw;
+    width: 98svw;
     top: 0px;
+
 
 }
 #info{
-    width: 100svw;
+    width: 98svw;
     height: auto;
     min-height: 100svh;
     /* background-color: rgba(127, 255, 212, 0.289); */
