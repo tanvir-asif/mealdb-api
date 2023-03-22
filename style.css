@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+#body{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+
+}
+#body p{
+    text-align: justify;
+    padding-top: 10vh;
+    padding-bottom: 6vh;
+}
+#search-results{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+h4{
+    display: inline-block;
+}
+footer{
+    position:relative;
+    bottom: 0px;
+    left: 0px;
+    width: 99svw;}
+
+#info .container{
+    /* background-color: #ffc10735; */
+    position:relative;
+    height: auto;
+    min-height: 100svh;
+    width: 100svw;
+    top: 0px;
+
+}
+#info{
+    width: 100svw;
+    height: auto;
+    min-height: 100svh;
+    /* background-color: rgba(127, 255, 212, 0.289); */
+    position:absolute;
+    top: 0px;
+    display: none;
+}
+#making-recipe{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+#making-recipe img{
+    object-fit: cover;
+    width: 85%;
+    height: 40vh;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+#content h1{
+    margin: 3vh;
+    text-align: center;
+
+}
+#content span{
+    font-weight: 700;
+}
+#content p{
+    align-self: flex-start;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#buttons button{
+    margin: 20px;
+    padding: 5px 25px;
+}
+#buttons button a{
+    text-decoration: none;
+    color: #ffc107;
+}
+#buttons button a:hover{
+
+    color: #000;
+}
+@media only screen and (max-width: 800px) {
+    #search-results{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+    }
+    .card{
+        margin: 0px 40px;
+
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 10px 10px rgba(155, 153, 153, 0.367);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #ffc107;
+}
